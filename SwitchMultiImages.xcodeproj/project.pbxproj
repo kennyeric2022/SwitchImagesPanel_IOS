@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAE75DB61584DFEC00D36751 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE75DB51584DFEC00D36751 /* UIKit.framework */; };
+		BAE75DB81584DFEC00D36751 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE75DB71584DFEC00D36751 /* Foundation.framework */; };
+		BAE75DBA1584DFEC00D36751 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE75DB91584DFEC00D36751 /* CoreGraphics.framework */; };
+		BAE75DC01584DFEC00D36751 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BAE75DBE1584DFEC00D36751 /* InfoPlist.strings */; };
+		BAE75DC21584DFEC00D36751 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE75DC11584DFEC00D36751 /* main.m */; };
+		BAE75DC61584DFEC00D36751 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE75DC51584DFEC00D36751 /* AppDelegate.m */; };
+		BAE75DC91584DFEC00D36751 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE75DC81584DFEC00D36751 /* ViewController.m */; };
+		BAE75DCC1584DFEC00D36751 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAE75DCA1584DFEC00D36751 /* ViewController.xib */; };
+		BAE75DD41584DFEC00D36751 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE75DD31584DFEC00D36751 /* SenTestingKit.framework */; };
+		BAE75DD51584DFEC00D36751 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE75DB51584DFEC00D36751 /* UIKit.framework */; };
+		BAE75DD61584DFEC00D36751 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE75DB71584DFEC00D36751 /* Foundation.framework */; };
+		BAE75DDE1584DFEC00D36751 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BAE75DDC1584DFEC00D36751 /* InfoPlist.strings */; };
+		BAE75DE11584DFEC00D36751 /* SwitchMultiImagesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE75DE01584DFEC00D36751 /* SwitchMultiImagesTests.m */; };
+		BAE75DEB1584E0E400D36751 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE75DEA1584E0E400D36751 /* QuartzCore.framework */; };
+		BAE75DEF1584E14C00D36751 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAE75DEC1584E14C00D36751 /* 1.jpg */; };
+		BAE75DF01584E14C00D36751 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAE75DED1584E14C00D36751 /* 2.jpg */; };
+		BAE75DF11584E14C00D36751 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAE75DEE1584E14C00D36751 /* 3.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAE75DD71584DFEC00D36751 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAE75DA81584DFEC00D36751 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAE75DB01584DFEC00D36751;
+			remoteInfo = SwitchMultiImages;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BAE75DB11584DFEC00D36751 /* SwitchMultiImages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwitchMultiImages.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAE75DB51584DFEC00D36751 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BAE75DB71584DFEC00D36751 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BAE75DB91584DFEC00D36751 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BAE75DBD1584DFEC00D36751 /* SwitchMultiImages-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwitchMultiImages-Info.plist"; sourceTree = "<group>"; };
+		BAE75DBF1584DFEC00D36751 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BAE75DC11584DFEC00D36751 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BAE75DC31584DFEC00D36751 /* SwitchMultiImages-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwitchMultiImages-Prefix.pch"; sourceTree = "<group>"; };
+		BAE75DC41584DFEC00D36751 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BAE75DC51584DFEC00D36751 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BAE75DC71584DFEC00D36751 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BAE75DC81584DFEC00D36751 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BAE75DCB1584DFEC00D36751 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		BAE75DD21584DFEC00D36751 /* SwitchMultiImagesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitchMultiImagesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAE75DD31584DFEC00D36751 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		BAE75DDB1584DFEC00D36751 /* SwitchMultiImagesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwitchMultiImagesTests-Info.plist"; sourceTree = "<group>"; };
+		BAE75DDD1584DFEC00D36751 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BAE75DDF1584DFEC00D36751 /* SwitchMultiImagesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwitchMultiImagesTests.h; sourceTree = "<group>"; };
+		BAE75DE01584DFEC00D36751 /* SwitchMultiImagesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwitchMultiImagesTests.m; sourceTree = "<group>"; };
+		BAE75DEA1584E0E400D36751 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BAE75DEC1584E14C00D36751 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpg; path = ../../SwitchImagesPanel/1.jpg; sourceTree = "<group>"; };
+		BAE75DED1584E14C00D36751 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2.jpg; path = ../../SwitchImagesPanel/2.jpg; sourceTree = "<group>"; };
+		BAE75DEE1584E14C00D36751 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 3.jpg; path = ../../SwitchImagesPanel/3.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAE75DAE1584DFEC00D36751 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE75DEB1584E0E400D36751 /* QuartzCore.framework in Frameworks */,
+				BAE75DB61584DFEC00D36751 /* UIKit.framework in Frameworks */,
+				BAE75DB81584DFEC00D36751 /* Foundation.framework in Frameworks */,
+				BAE75DBA1584DFEC00D36751 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE75DCE1584DFEC00D36751 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE75DD41584DFEC00D36751 /* SenTestingKit.framework in Frameworks */,
+				BAE75DD51584DFEC00D36751 /* UIKit.framework in Frameworks */,
+				BAE75DD61584DFEC00D36751 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAE75DA61584DFEC00D36751 = {
+			isa = PBXGroup;
+			children = (
+				BAE75DBB1584DFEC00D36751 /* SwitchMultiImages */,
+				BAE75DD91584DFEC00D36751 /* SwitchMultiImagesTests */,
+				BAE75DB41584DFEC00D36751 /* Frameworks */,
+				BAE75DB21584DFEC00D36751 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAE75DB21584DFEC00D36751 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAE75DB11584DFEC00D36751 /* SwitchMultiImages.app */,
+				BAE75DD21584DFEC00D36751 /* SwitchMultiImagesTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAE75DB41584DFEC00D36751 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAE75DEA1584E0E400D36751 /* QuartzCore.framework */,
+				BAE75DB51584DFEC00D36751 /* UIKit.framework */,
+				BAE75DB71584DFEC00D36751 /* Foundation.framework */,
+				BAE75DB91584DFEC00D36751 /* CoreGraphics.framework */,
+				BAE75DD31584DFEC00D36751 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BAE75DBB1584DFEC00D36751 /* SwitchMultiImages */ = {
+			isa = PBXGroup;
+			children = (
+				BAE75DEC1584E14C00D36751 /* 1.jpg */,
+				BAE75DED1584E14C00D36751 /* 2.jpg */,
+				BAE75DEE1584E14C00D36751 /* 3.jpg */,
+				BAE75DC41584DFEC00D36751 /* AppDelegate.h */,
+				BAE75DC51584DFEC00D36751 /* AppDelegate.m */,
+				BAE75DC71584DFEC00D36751 /* ViewController.h */,
+				BAE75DC81584DFEC00D36751 /* ViewController.m */,
+				BAE75DCA1584DFEC00D36751 /* ViewController.xib */,
+				BAE75DBC1584DFEC00D36751 /* Supporting Files */,
+			);
+			path = SwitchMultiImages;
+			sourceTree = "<group>";
+		};
+		BAE75DBC1584DFEC00D36751 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAE75DBD1584DFEC00D36751 /* SwitchMultiImages-Info.plist */,
+				BAE75DBE1584DFEC00D36751 /* InfoPlist.strings */,
+				BAE75DC11584DFEC00D36751 /* main.m */,
+				BAE75DC31584DFEC00D36751 /* SwitchMultiImages-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BAE75DD91584DFEC00D36751 /* SwitchMultiImagesTests */ = {
+			isa = PBXGroup;
+			children = (
+				BAE75DDF1584DFEC00D36751 /* SwitchMultiImagesTests.h */,
+				BAE75DE01584DFEC00D36751 /* SwitchMultiImagesTests.m */,
+				BAE75DDA1584DFEC00D36751 /* Supporting Files */,
+			);
+			path = SwitchMultiImagesTests;
+			sourceTree = "<group>";
+		};
+		BAE75DDA1584DFEC00D36751 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAE75DDB1584DFEC00D36751 /* SwitchMultiImagesTests-Info.plist */,
+				BAE75DDC1584DFEC00D36751 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAE75DB01584DFEC00D36751 /* SwitchMultiImages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAE75DE41584DFEC00D36751 /* Build configuration list for PBXNativeTarget "SwitchMultiImages" */;
+			buildPhases = (
+				BAE75DAD1584DFEC00D36751 /* Sources */,
+				BAE75DAE1584DFEC00D36751 /* Frameworks */,
+				BAE75DAF1584DFEC00D36751 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwitchMultiImages;
+			productName = SwitchMultiImages;
+			productReference = BAE75DB11584DFEC00D36751 /* SwitchMultiImages.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAE75DD11584DFEC00D36751 /* SwitchMultiImagesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAE75DE71584DFEC00D36751 /* Build configuration list for PBXNativeTarget "SwitchMultiImagesTests" */;
+			buildPhases = (
+				BAE75DCD1584DFEC00D36751 /* Sources */,
+				BAE75DCE1584DFEC00D36751 /* Frameworks */,
+				BAE75DCF1584DFEC00D36751 /* Resources */,
+				BAE75DD01584DFEC00D36751 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAE75DD81584DFEC00D36751 /* PBXTargetDependency */,
+			);
+			name = SwitchMultiImagesTests;
+			productName = SwitchMultiImagesTests;
+			productReference = BAE75DD21584DFEC00D36751 /* SwitchMultiImagesTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAE75DA81584DFEC00D36751 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = BAE75DAB1584DFEC00D36751 /* Build configuration list for PBXProject "SwitchMultiImages" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BAE75DA61584DFEC00D36751;
+			productRefGroup = BAE75DB21584DFEC00D36751 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAE75DB01584DFEC00D36751 /* SwitchMultiImages */,
+				BAE75DD11584DFEC00D36751 /* SwitchMultiImagesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAE75DAF1584DFEC00D36751 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE75DC01584DFEC00D36751 /* InfoPlist.strings in Resources */,
+				BAE75DCC1584DFEC00D36751 /* ViewController.xib in Resources */,
+				BAE75DEF1584E14C00D36751 /* 1.jpg in Resources */,
+				BAE75DF01584E14C00D36751 /* 2.jpg in Resources */,
+				BAE75DF11584E14C00D36751 /* 3.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE75DCF1584DFEC00D36751 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE75DDE1584DFEC00D36751 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BAE75DD01584DFEC00D36751 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAE75DAD1584DFEC00D36751 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE75DC21584DFEC00D36751 /* main.m in Sources */,
+				BAE75DC61584DFEC00D36751 /* AppDelegate.m in Sources */,
+				BAE75DC91584DFEC00D36751 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE75DCD1584DFEC00D36751 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE75DE11584DFEC00D36751 /* SwitchMultiImagesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAE75DD81584DFEC00D36751 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAE75DB01584DFEC00D36751 /* SwitchMultiImages */;
+			targetProxy = BAE75DD71584DFEC00D36751 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BAE75DBE1584DFEC00D36751 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAE75DBF1584DFEC00D36751 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BAE75DCA1584DFEC00D36751 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAE75DCB1584DFEC00D36751 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		BAE75DDC1584DFEC00D36751 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAE75DDD1584DFEC00D36751 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAE75DE21584DFEC00D36751 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BAE75DE31584DFEC00D36751 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAE75DE51584DFEC00D36751 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwitchMultiImages/SwitchMultiImages-Prefix.pch";
+				INFOPLIST_FILE = "SwitchMultiImages/SwitchMultiImages-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BAE75DE61584DFEC00D36751 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwitchMultiImages/SwitchMultiImages-Prefix.pch";
+				INFOPLIST_FILE = "SwitchMultiImages/SwitchMultiImages-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BAE75DE81584DFEC00D36751 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SwitchMultiImages.app/SwitchMultiImages";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwitchMultiImages/SwitchMultiImages-Prefix.pch";
+				INFOPLIST_FILE = "SwitchMultiImagesTests/SwitchMultiImagesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		BAE75DE91584DFEC00D36751 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SwitchMultiImages.app/SwitchMultiImages";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwitchMultiImages/SwitchMultiImages-Prefix.pch";
+				INFOPLIST_FILE = "SwitchMultiImagesTests/SwitchMultiImagesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAE75DAB1584DFEC00D36751 /* Build configuration list for PBXProject "SwitchMultiImages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE75DE21584DFEC00D36751 /* Debug */,
+				BAE75DE31584DFEC00D36751 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAE75DE41584DFEC00D36751 /* Build configuration list for PBXNativeTarget "SwitchMultiImages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE75DE51584DFEC00D36751 /* Debug */,
+				BAE75DE61584DFEC00D36751 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BAE75DE71584DFEC00D36751 /* Build configuration list for PBXNativeTarget "SwitchMultiImagesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE75DE81584DFEC00D36751 /* Debug */,
+				BAE75DE91584DFEC00D36751 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAE75DA81584DFEC00D36751 /* Project object */;
+}
