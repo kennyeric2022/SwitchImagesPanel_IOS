@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA6176391585CCF50003E18B /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6176361585CCF50003E18B /* 1.jpg */; };
+		BA61763A1585CCF50003E18B /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6176371585CCF50003E18B /* 2.jpg */; };
+		BA61763B1585CCF50003E18B /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6176381585CCF50003E18B /* 3.jpg */; };
 		BAE75DB61584DFEC00D36751 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE75DB51584DFEC00D36751 /* UIKit.framework */; };
 		BAE75DB81584DFEC00D36751 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE75DB71584DFEC00D36751 /* Foundation.framework */; };
 		BAE75DBA1584DFEC00D36751 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE75DB91584DFEC00D36751 /* CoreGraphics.framework */; };
@@ -21,9 +24,6 @@
 		BAE75DDE1584DFEC00D36751 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BAE75DDC1584DFEC00D36751 /* InfoPlist.strings */; };
 		BAE75DE11584DFEC00D36751 /* SwitchMultiImagesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE75DE01584DFEC00D36751 /* SwitchMultiImagesTests.m */; };
 		BAE75DEB1584E0E400D36751 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE75DEA1584E0E400D36751 /* QuartzCore.framework */; };
-		BAE75DEF1584E14C00D36751 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAE75DEC1584E14C00D36751 /* 1.jpg */; };
-		BAE75DF01584E14C00D36751 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAE75DED1584E14C00D36751 /* 2.jpg */; };
-		BAE75DF11584E14C00D36751 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAE75DEE1584E14C00D36751 /* 3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA6176361585CCF50003E18B /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		BA6176371585CCF50003E18B /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		BA6176381585CCF50003E18B /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
 		BAE75DB11584DFEC00D36751 /* SwitchMultiImages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwitchMultiImages.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAE75DB51584DFEC00D36751 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BAE75DB71584DFEC00D36751 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -57,9 +60,6 @@
 		BAE75DDF1584DFEC00D36751 /* SwitchMultiImagesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwitchMultiImagesTests.h; sourceTree = "<group>"; };
 		BAE75DE01584DFEC00D36751 /* SwitchMultiImagesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwitchMultiImagesTests.m; sourceTree = "<group>"; };
 		BAE75DEA1584E0E400D36751 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		BAE75DEC1584E14C00D36751 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpg; path = ../../SwitchImagesPanel/1.jpg; sourceTree = "<group>"; };
-		BAE75DED1584E14C00D36751 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2.jpg; path = ../../SwitchImagesPanel/2.jpg; sourceTree = "<group>"; };
-		BAE75DEE1584E14C00D36751 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 3.jpg; path = ../../SwitchImagesPanel/3.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,9 +121,9 @@
 		BAE75DBB1584DFEC00D36751 /* SwitchMultiImages */ = {
 			isa = PBXGroup;
 			children = (
-				BAE75DEC1584E14C00D36751 /* 1.jpg */,
-				BAE75DED1584E14C00D36751 /* 2.jpg */,
-				BAE75DEE1584E14C00D36751 /* 3.jpg */,
+				BA6176361585CCF50003E18B /* 1.jpg */,
+				BA6176371585CCF50003E18B /* 2.jpg */,
+				BA6176381585CCF50003E18B /* 3.jpg */,
 				BAE75DC41584DFEC00D36751 /* AppDelegate.h */,
 				BAE75DC51584DFEC00D36751 /* AppDelegate.m */,
 				BAE75DC71584DFEC00D36751 /* ViewController.h */,
@@ -236,9 +236,9 @@
 			files = (
 				BAE75DC01584DFEC00D36751 /* InfoPlist.strings in Resources */,
 				BAE75DCC1584DFEC00D36751 /* ViewController.xib in Resources */,
-				BAE75DEF1584E14C00D36751 /* 1.jpg in Resources */,
-				BAE75DF01584E14C00D36751 /* 2.jpg in Resources */,
-				BAE75DF11584E14C00D36751 /* 3.jpg in Resources */,
+				BA6176391585CCF50003E18B /* 1.jpg in Resources */,
+				BA61763A1585CCF50003E18B /* 2.jpg in Resources */,
+				BA61763B1585CCF50003E18B /* 3.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,6 +445,7 @@
 				BAE75DE61584DFEC00D36751 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BAE75DE71584DFEC00D36751 /* Build configuration list for PBXNativeTarget "SwitchMultiImagesTests" */ = {
 			isa = XCConfigurationList;
@@ -453,6 +454,7 @@
 				BAE75DE91584DFEC00D36751 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
