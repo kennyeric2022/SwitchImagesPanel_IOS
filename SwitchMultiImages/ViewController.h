@@ -7,18 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SwitchImagesUIView.h"
 
 @interface ViewController : UIViewController
 {
-    UIView *panel;
-    NSArray *imageData;
-    NSInteger lastIndex;
-    UIImageView *curImageView;
-    UIImageView *nextImageView;
-    NSArray *animationValuesOut;
-    NSArray *animationValuesIn;
-    NSArray *animationKeyTimes;
+    SwitchImagesUIView *panel;
 }
-
-@property (nonatomic, retain) IBOutlet UIView *panel;
 @end

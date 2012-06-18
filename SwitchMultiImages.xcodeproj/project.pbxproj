@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA2FB603158F586D007950EA /* SwitchImagesUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2FB602158F586D007950EA /* SwitchImagesUIView.m */; };
 		BA6176391585CCF50003E18B /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6176361585CCF50003E18B /* 1.jpg */; };
 		BA61763A1585CCF50003E18B /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6176371585CCF50003E18B /* 2.jpg */; };
 		BA61763B1585CCF50003E18B /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6176381585CCF50003E18B /* 3.jpg */; };
@@ -17,7 +18,6 @@
 		BAE75DC21584DFEC00D36751 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE75DC11584DFEC00D36751 /* main.m */; };
 		BAE75DC61584DFEC00D36751 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE75DC51584DFEC00D36751 /* AppDelegate.m */; };
 		BAE75DC91584DFEC00D36751 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE75DC81584DFEC00D36751 /* ViewController.m */; };
-		BAE75DCC1584DFEC00D36751 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAE75DCA1584DFEC00D36751 /* ViewController.xib */; };
 		BAE75DD41584DFEC00D36751 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE75DD31584DFEC00D36751 /* SenTestingKit.framework */; };
 		BAE75DD51584DFEC00D36751 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE75DB51584DFEC00D36751 /* UIKit.framework */; };
 		BAE75DD61584DFEC00D36751 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE75DB71584DFEC00D36751 /* Foundation.framework */; };
@@ -37,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA2FB601158F586D007950EA /* SwitchImagesUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchImagesUIView.h; sourceTree = "<group>"; };
+		BA2FB602158F586D007950EA /* SwitchImagesUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwitchImagesUIView.m; sourceTree = "<group>"; };
 		BA6176361585CCF50003E18B /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		BA6176371585CCF50003E18B /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
 		BA6176381585CCF50003E18B /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
@@ -52,7 +54,6 @@
 		BAE75DC51584DFEC00D36751 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BAE75DC71584DFEC00D36751 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BAE75DC81584DFEC00D36751 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		BAE75DCB1584DFEC00D36751 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		BAE75DD21584DFEC00D36751 /* SwitchMultiImagesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitchMultiImagesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAE75DD31584DFEC00D36751 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		BAE75DDB1584DFEC00D36751 /* SwitchMultiImagesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwitchMultiImagesTests-Info.plist"; sourceTree = "<group>"; };
@@ -128,8 +129,9 @@
 				BAE75DC51584DFEC00D36751 /* AppDelegate.m */,
 				BAE75DC71584DFEC00D36751 /* ViewController.h */,
 				BAE75DC81584DFEC00D36751 /* ViewController.m */,
-				BAE75DCA1584DFEC00D36751 /* ViewController.xib */,
 				BAE75DBC1584DFEC00D36751 /* Supporting Files */,
+				BA2FB601158F586D007950EA /* SwitchImagesUIView.h */,
+				BA2FB602158F586D007950EA /* SwitchImagesUIView.m */,
 			);
 			path = SwitchMultiImages;
 			sourceTree = "<group>";
@@ -235,7 +237,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAE75DC01584DFEC00D36751 /* InfoPlist.strings in Resources */,
-				BAE75DCC1584DFEC00D36751 /* ViewController.xib in Resources */,
 				BA6176391585CCF50003E18B /* 1.jpg in Resources */,
 				BA61763A1585CCF50003E18B /* 2.jpg in Resources */,
 				BA61763B1585CCF50003E18B /* 3.jpg in Resources */,
@@ -276,6 +277,7 @@
 				BAE75DC21584DFEC00D36751 /* main.m in Sources */,
 				BAE75DC61584DFEC00D36751 /* AppDelegate.m in Sources */,
 				BAE75DC91584DFEC00D36751 /* ViewController.m in Sources */,
+				BA2FB603158F586D007950EA /* SwitchImagesUIView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,14 +306,6 @@
 				BAE75DBF1584DFEC00D36751 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		BAE75DCA1584DFEC00D36751 /* ViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BAE75DCB1584DFEC00D36751 /* en */,
-			);
-			name = ViewController.xib;
 			sourceTree = "<group>";
 		};
 		BAE75DDC1584DFEC00D36751 /* InfoPlist.strings */ = {
